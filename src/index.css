@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Commissioner:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-commissioner text-gray-800;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-archivo-black;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Enable smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Parallax base styles */
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+/* Swiper Custom Styles */
+.swiper-pagination-bullet {
+  @apply !w-3 !h-3 !bg-white/50 !opacity-100 !transition-all !duration-300;
+}
+
+.swiper-pagination-bullet-active {
+  @apply !bg-[#B8860B] !w-4 !h-4;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  @apply !text-white;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  @apply !text-2xl !font-bold;
+}
+
+/* Fade effect customization */
+.swiper-fade .swiper-slide {
+  @apply !transition-opacity !duration-700;
+}
+
+/* Ensure smooth transitions between slides */
+.swiper-slide-active {
+  @apply !z-10;
+}
+
+.swiper-slide {
+  @apply !transition-all !duration-700;
 }

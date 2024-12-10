@@ -1,24 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './components/Navbar.tsx';
+import HeroSection from './components/HeroCarousel.tsx';
+import AboutSection from './components/AboutSection.tsx';
+import ParallaxSection from './components/ParallaxSection.tsx';
+import ServicesSection from './components/ServicesSection.tsx';
+import AdditionalServices from './components/AdditionalServices.tsx';
+import InvestmentSection from './components/InvestmentSection.tsx';
+import TestimonialsSection from './components/TestimonialsSection.tsx';
+import ContactForm from './components/ContactForm.tsx';
+import Footer from './components/Footer.tsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen pt-36">
+      <Navbar />
+      <HeroSection />
+      <AboutSection />
+      <ParallaxSection />
+      <ServicesSection />
+      <AdditionalServices />
+      <InvestmentSection />
+      <TestimonialsSection />
+      <ContactForm />
+      <Footer />
     </div>
   );
 }
