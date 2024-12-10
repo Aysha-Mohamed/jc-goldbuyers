@@ -1,5 +1,6 @@
 import React from 'react';
 import heroImage from '../Assets/her0_1.jpg';
+import BannerImage from '../Assets/Banner.png';
 
 const HeroSection = () => {
   return (
@@ -7,10 +8,10 @@ const HeroSection = () => {
       <div
         className="relative w-full h-full bg-cover bg-center"
         style={{
-          backgroundImage: `url(${heroImage})`,
+          backgroundImage: `url(${BannerImage})`,
         }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-50" />
+        {/* <div className="absolute inset-0 bg-black bg-opacity-50" /> */}
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white px-4 max-w-6xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-barlow font-bold mb-6 text-center leading-tight">
             Turn Your Valuables

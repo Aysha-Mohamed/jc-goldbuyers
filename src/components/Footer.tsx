@@ -1,12 +1,15 @@
 import React from 'react';
+import Instagram from '../Assets/instagram.svg';
+import Yelp from '../Assets/yelp.svg';
+import Google from '../Assets/google.svg';
 
 const Footer = () => {
   return (
     <footer className="bg-white border-t border-gray-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {/* Brand Section */}
-          <div className="col-span-1 md:col-span-1">
+          {/* <div className="col-span-1 md:col-span-1">
             <div className="mb-4">
               <img
                 src="https://stackblitz.com/storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBME0rSlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--c374bf833319704c62f35510ef33b22103b1b281/Logo_1.jpg"
@@ -18,7 +21,7 @@ const Footer = () => {
               Jersey City's most trusted buyer of gold, diamonds, luxury watches, and fine jewelry
               since 2011.
             </p>
-          </div>
+          </div> */}
 
           {/* Quick Links */}
           <div>
@@ -99,6 +102,15 @@ const Footer = () => {
                 className="text-gray-500 hover:text-[#B8860B] text-sm transition-colors font-barlow"
               >
                 Terms of Service
+              </a>
+              <a href='https://www.instagram.com/jcgoldbuyers/' target='_blank'>
+               <img src={Instagram} alt="Instagram" className="h-5 w-5" />
+              </a>
+              <a href='https://www.yelp.com/biz/jersey-city-gold-buyers-jersey-city-2'  target='_blank'>
+                <img src={Yelp} alt='Yelp' className='h-5 w-5'/> 
+              </a>
+              <a href='https://g.co/kgs/oGLdPsw'  target='_blank'>
+                <img src={Google} alt='Google' className='h-5 w-5'/> 
               </a>
             </div>
           </div>
