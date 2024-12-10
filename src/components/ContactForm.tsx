@@ -42,6 +42,8 @@ const ContactForm = () => {
                 <h3 className="text-xl font-barlow font-bold mb-2">Business Hours</h3>
                 <p className="text-gray-600 font-barlow">10AM - 6PM Monday - Friday</p>
                 <p className="text-gray-600 font-barlow">10AM - 5PM Sunday</p>
+                <p className="text-gray-600 font-barlow">12.30PM - 4.30PM Saturday</p>
+                <p className="text-gray-600 font-barlow">Close Sunday</p>
               </div>
             </div>
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Phone, Mail, Menu, X } from 'lucide-react';
-// import Logo from './Logo';
+ import Logo from './Logo.tsx';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -85,9 +85,9 @@ const Navbar = () => {
               ))}
             </nav>
 
-            {/* <div className="flex-1 flex justify-center">
+            <div className="flex-1 flex justify-center">
               <Logo isScrolled={isScrolled} />
-            </div> */}
+            </div>
 
             <nav className="hidden md:flex items-center space-x-8">
               {navLinks.slice(2).map(link => (

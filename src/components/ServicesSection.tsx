@@ -1,6 +1,9 @@
 import React from 'react';
 import ServiceCard from './service/ServiceCard.tsx';
 import type { ServiceProps } from '../types';
+import GoldRings from '../Assets/rings-gold.png';
+import LuxuryWatch from '../Assets/luxuryWatch.png';
+import Jewellery from '../Assets/Jewellery.png';
 
 const ServicesSection: React.FC = () => {
   const services: ServiceProps[] = [
@@ -8,31 +11,31 @@ const ServicesSection: React.FC = () => {
       title: 'Gold & Silver Buying',
       description:
         'Whether you have old jewelry, coins, or scrap metal, we offer competitive prices for your gold and silver.',
-      image: 'https://stackblitz.com/storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMnJzRkE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--c444d9264d1e3212bb7b0706be157a4dcece29eb/gld_slvr.jpg',
+      image: GoldRings,
       features: ['Free professional evaluations', 'Competitive market rates', 'Immediate cash payment'],
       imageLeft: true,
     },
-    {
-      title: 'Precious Stones',
-      description: 'We buy and sell a wide variety of gemstones, including diamonds, sapphires, rubies, and more.',
-      image: 'https://stackblitz.com/storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMmZzRkE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--36d25dcda195e32a54cf9a8fce91cb0a70a9bdf8/gems.jpg',
-      features: ['Expert gemological analysis', 'Best market prices', 'Secure transactions'],
-      imageLeft: false,
-    },
+    // {
+    //   title: 'Precious Stones',
+    //   description: 'We buy and sell a wide variety of gemstones, including diamonds, sapphires, rubies, and more.',
+    //   image: 'https://stackblitz.com/storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMmZzRkE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--36d25dcda195e32a54cf9a8fce91cb0a70a9bdf8/gems.jpg',
+    //   features: ['Expert gemological analysis', 'Best market prices', 'Secure transactions'],
+    //   imageLeft: false,
+    // },
     {
       title: 'Luxury Watches',
       description: 'From Rolex to Omega, we deal in high-end watches, offering fair trade for your luxury timepieces.',
-      image: 'https://stackblitz.com/storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMmpzRkE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9aff2dc50e926f37c75a84edac56c7d95dfa7849/rolex.jpg',
+      image: LuxuryWatch,
       features: ['Authentication service', 'Fair market value', 'Immediate payment'],
-      imageLeft: true,
+      imageLeft: false,
     },
     {
       title: 'Jewelry',
       description:
         'Looking for something special? Our selection of rings, necklaces, and bracelets is sure to have the perfect piece.',
-      image: 'https://stackblitz.com/storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMm5zRkE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--00dff100f70aa9cadceba24b2c33a902cd0c75ca/customdesign.jpg',
+      image: Jewellery,
       features: ['Wide selection', 'Quality pieces', 'Expert guidance'],
-      imageLeft: false,
+      imageLeft: true,
     },
   ];
 
