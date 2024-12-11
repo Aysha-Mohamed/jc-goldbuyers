@@ -109,7 +109,7 @@ const Footer = () => {
               <a href='https://www.yelp.com/biz/jersey-city-gold-buyers-jersey-city-2'  target='_blank' rel="noreferrer">
                 <img src={Yelp} alt='Yelp' className='h-5 w-5'/> 
               </a>
-              <a href='https://g.co/kgs/oGLdPsw'  target='_blank' rel="noreferrer">
+              <a href='https://www.google.com/search?q=jersey+city+gold+buyers'  target='_blank' rel="noreferrer">
                 <img src={Google} alt='Google' className='h-5 w-5'/> 
               </a>
             </div>
