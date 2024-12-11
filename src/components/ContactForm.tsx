@@ -2,11 +2,32 @@ import React from 'react';
 import { MapPin, Phone, Clock, Mail } from 'lucide-react';
 
 const ContactForm = () => {
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle form submission logic here
-  };
+  // const handleSubmit = (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   // Handle form submission logic here
 
+  // };
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault(); // Prevent the form from submitting the default way
+  
+    // Get form values
+    const form = e.target as HTMLFormElement;
+    const name = (form.elements.namedItem('name') as HTMLInputElement).value;
+    const phone = (form.elements.namedItem('phone') as HTMLInputElement).value;
+    const email = (form.elements.namedItem('email') as HTMLInputElement).value;
+    const message = (form.elements.namedItem('message') as HTMLTextAreaElement).value;
+  
+    // Create a mailto link with proper encoding
+    const mailto = `mailto:ayshamohd01@gmail.com?subject=${encodeURIComponent(
+      `Contact Form - JC Gold Buyers ${name}`
+    )}&body=${encodeURIComponent(
+      `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\n\nMessage:\n${message}`
+    )}`;
+  
+    // Redirect to the mailto link
+    window.location.href = mailto;
+  };
+  
   return (
     <section id="contact" className="bg-gray-100 py-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

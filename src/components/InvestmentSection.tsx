@@ -13,7 +13,7 @@ const InvestmentSection = () => {
           </p>
         </div>
 
-        <div className="relative h-[600px] overflow-hidden mb-20">
+        <div className="relative h-[800px] md:h-[600px] overflow-hidden mb-20">
           <div
             className="absolute inset-0 bg-fixed bg-center bg-cover"
             style={{
