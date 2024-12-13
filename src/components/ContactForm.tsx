@@ -18,7 +18,7 @@ const ContactForm = () => {
     const message = (form.elements.namedItem('message') as HTMLTextAreaElement).value;
   
     // Create a mailto link with proper encoding
-    const mailto = `mailto:ayshamohd01@gmail.com?subject=${encodeURIComponent(
+    const mailto = `mailto:info@jcgoldbuyers.com?subject=${encodeURIComponent(
       `Contact Form - JC Gold Buyers ${name}`
     )}&body=${encodeURIComponent(
       `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\n\nMessage:\n${message}`
@@ -53,7 +53,7 @@ const ContactForm = () => {
               <Phone className="w-6 h-6 text-[#B8860B] flex-shrink-0" />
               <div>
                 <h3 className="text-xl font-barlow font-bold mb-2">Call Us</h3>
-                <p className="text-gray-600 font-barlow">(917) 682-2913</p>
+                <p className="text-gray-600 font-barlow">(201)-332-1551</p>
               </div>
             </div>
 
@@ -61,10 +61,10 @@ const ContactForm = () => {
               <Clock className="w-6 h-6 text-[#B8860B] flex-shrink-0" />
               <div>
                 <h3 className="text-xl font-barlow font-bold mb-2">Business Hours</h3>
-                <p className="text-gray-600 font-barlow">10AM - 6PM Monday - Friday</p>
-                <p className="text-gray-600 font-barlow">10AM - 5PM Sunday</p>
+                <p className="text-gray-600 font-barlow">10.30AM - 6PM Monday - Thursday</p>
+                <p className="text-gray-600 font-barlow">10.30AM - 5PM Friday</p>
                 <p className="text-gray-600 font-barlow">12.30PM - 4.30PM Saturday</p>
-                <p className="text-gray-600 font-barlow">Close Sunday</p>
+                <p className="text-gray-600 font-barlow">Closed Sunday</p>
               </div>
             </div>
 

@@ -42,15 +42,15 @@ const Navbar = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-12">
             <a
-              href="tel:917-682-2913"
+              href="tel:201-332-1551"
               className="flex items-center gap-2 hover:text-gray-200 text-sm sm:text-base font-barlow whitespace-nowrap"
             >
               <Phone size={16} className="hidden sm:block" />
-              <span>(917) 682-2913</span>
+              <span>(201)-332-1551</span>
             </a>
 
             <span className="text-sm sm:text-base font-barlow whitespace-nowrap text-center">
-              10AM - 6PM Mon - Fri | 10AM - 5PM Sun
+              10.30AM - 6PM Mon - Thurs &nbsp;|&nbsp;  10.30AM - 5PM Fri &nbsp; | &nbsp; 12.30PM - 4.30PM Sat
             </span>
 
             <a
