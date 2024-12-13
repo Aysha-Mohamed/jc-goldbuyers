@@ -49,7 +49,7 @@ const Navbar = () => {
               <span>(201)-332-1551</span>
             </a>
 
-            <span className="text-sm sm:text-base font-barlow whitespace-nowrap text-center">
+            <span className="text-sm sm:text-base font-barlow whitespace-nowrap text-center hidden md:block">
               10.30AM - 6PM Mon - Thurs &nbsp;|&nbsp;  10.30AM - 5PM Fri &nbsp; | &nbsp; 12.30PM - 4.30PM Sat
             </span>
 
