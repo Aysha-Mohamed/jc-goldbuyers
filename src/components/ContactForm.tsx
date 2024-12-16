@@ -61,10 +61,10 @@ const ContactForm = () => {
               <Clock className="w-6 h-6 text-[#B8860B] flex-shrink-0" />
               <div>
                 <h3 className="text-xl font-barlow font-bold mb-2">Business Hours</h3>
-                <p className="text-gray-600 font-barlow">10.30AM - 6PM Monday - Thursday</p>
-                <p className="text-gray-600 font-barlow">10.30AM - 5PM Friday</p>
-                <p className="text-gray-600 font-barlow">12.30PM - 4.30PM Saturday</p>
-                <p className="text-gray-600 font-barlow">Closed Sunday</p>
+                <p className="text-gray-600 font-barlow">Monday - Thursday 10.30AM - 6PM</p>
+                <p className="text-gray-600 font-barlow">Friday 10.30AM - 5PM</p>
+                <p className="text-gray-600 font-barlow">Saturday 12.30PM - 4.30PM</p>
+                <p className="text-gray-600 font-barlow">Sunday Closed</p>
               </div>
             </div>
 
@@ -72,7 +72,7 @@ const ContactForm = () => {
               <Mail className="w-6 h-6 text-[#B8860B] flex-shrink-0" />
               <div>
                 <h3 className="text-xl font-barlow font-bold mb-2">Email Us</h3>
-                <p className="text-gray-600 font-barlow">info@jerseycitygoldbuyers.com</p>
+                <p className="text-gray-600 font-barlow">info@jcgoldbuyers.com</p>
               </div>
             </div>
           </div>
