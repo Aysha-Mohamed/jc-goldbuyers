@@ -19,7 +19,7 @@ const HeroSection = () => {
           </h1>
           <p className="text-xl md:text-2xl mb-4 font-barlow">Jersey City's Most Trusted Buyer</p>
           <p className="text-lg md:text-xl mb-8 text-[#FFD700] font-barlow tracking-wider text-center">
-            Gold &nbsp;•&nbsp; Diamonds &nbsp;•&nbsp; Luxury Watches &nbsp;•&nbsp; Fine Jewelry
+            Gold Bullion &nbsp;•&nbsp; Luxury Watches &nbsp;•&nbsp; Fine Jewelry &nbsp;•&nbsp; Lab Grown Diamonds
           </p>
           <a
             href="#contact"

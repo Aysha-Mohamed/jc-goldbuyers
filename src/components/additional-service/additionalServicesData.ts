@@ -1,6 +1,6 @@
 export const additionalServicesData = [
   {
-    title: 'Appraisal',
+    title: 'Appraisals',
     description: `We provide expert jewelry appraisal services to help you understand the true value of your pieces. Whether you need an appraisal for insurance purposes, resale, or simply want to know more about your jewelry's worth, our skilled professionals offer accurate, reliable valuations. We take pride in offering transparent and fair appraisals based on the latest market trends and quality assessments. Trust Jersey City Gold Buyers for all your jewelry appraisal needs, and let us assist you in making informed decisions about your valuable items.`,
     image: 'https://stackblitz.com/storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK3BJSlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--0af3cc1a3b315a30f627b0d635d2e0146a5024da/app_1.jpg',
   },

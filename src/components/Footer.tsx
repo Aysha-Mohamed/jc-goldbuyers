@@ -68,7 +68,7 @@ const Footer = () => {
             <address className="not-italic">
               <p className="text-gray-600 mb-2 font-barlow">264 Newark Ave</p>
               <p className="text-gray-600 mb-4 font-barlow">Jersey City, NJ 07302</p>
-              <p className="text-gray-600 mb-2 font-barlow">(917) 682-2913</p>
+              <p className="text-gray-600 mb-2 font-barlow">(201)-332-1551</p>
               <p className="text-gray-600 font-barlow">info@jcgoldbuyers.com</p>
             </address>
           </div>

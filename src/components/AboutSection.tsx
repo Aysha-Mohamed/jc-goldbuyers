@@ -23,7 +23,7 @@ const AboutSection = () => {
   ];
 
   return (
-    <section id="about" className="bg-gradient-to-b from-white to-gray-50 py-20">
+    <section id="about" className="bg-gradient-to-b from-white to-gray-50 py-20 scroll-mt-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl font-barlow font-bold text-center mb-8">About Us</h2>
 
