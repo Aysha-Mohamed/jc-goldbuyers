@@ -18,9 +18,13 @@ const HeroSection = () => {
             Into Instant Cash
           </h1>
           <p className="text-xl md:text-2xl mb-4 font-barlow">Jersey City's Most Trusted Buyer</p>
-          <p className="text-lg md:text-xl mb-8 text-[#FFD700] font-barlow tracking-wider text-center">
+          {/* <p className="text-lg md:text-xl mb-8 text-[#FFD700] font-barlow tracking-wider text-center">
             Gold Bullion &nbsp;•&nbsp; Luxury Watches &nbsp;•&nbsp; Fine Jewelry &nbsp;•&nbsp; Lab Grown Diamonds
-          </p>
+          </p> */}
+          <p className="text-lg md:text-xl mb-8 text-[#FFD700] font-barlow tracking-wider text-center">
+  Gold Bullion &nbsp;•&nbsp; Luxury Watches &nbsp;•&nbsp; Fine Jewelry  <span className="hidden md:inline">&nbsp;•&nbsp;</span>
+  <span className="block md:inline"> Lab Grown Diamonds</span>
+</p>
           <a
             href="#contact"
             className="bg-[#B8860B] hover:bg-[#986C0C] text-white px-10 py-4 transition duration-300 font-barlow font-bold text-xl transform hover:scale-105 hover:shadow-lg"
