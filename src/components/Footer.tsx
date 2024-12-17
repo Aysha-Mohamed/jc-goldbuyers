@@ -92,18 +92,18 @@ const Footer = () => {
               © 2024 JC Gold Buyers. All rights reserved.
             </p>
             <div className="flex space-x-6">
-              <a
+              {/* <a
                 href="/privacy"
                 className="text-gray-500 hover:text-[#B8860B] text-sm transition-colors font-barlow"
               >
                 Privacy Policy
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href="/terms"
                 className="text-gray-500 hover:text-[#B8860B] text-sm transition-colors font-barlow"
               >
                 Terms of Service
-              </a>
+              </a> */}
               <a href='https://www.instagram.com/jcgoldbuyers/' target='_blank' rel="noreferrer">
                <img src={Instagram} alt="Instagram" className="h-5 w-5" />
               </a>
