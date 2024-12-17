@@ -1,8 +1,8 @@
 import React from 'react';
 import ServiceCard from './service/ServiceCard.tsx';
 import type { ServiceProps } from '../types';
-import GoldRings from '../Assets/rings-gold.png';
-import LuxuryWatch from '../Assets/luxuryWatch.png';
+import GoldRings from '../Assets/GoldBullion.png';
+import LuxuryWatch from '../Assets/Watches.png';
 import Jewellery from '../Assets/Jewellery.png';
 
 const ServicesSection: React.FC = () => {
@@ -41,6 +41,7 @@ const ServicesSection: React.FC = () => {
 
   return (
    <section id="services" className="bg-white py-20 scroll-mt-20 pb-10 md:pb-20" >
+
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-barlow font-bold mb-6">Our Services</h2>
