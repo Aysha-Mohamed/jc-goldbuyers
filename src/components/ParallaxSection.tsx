@@ -1,13 +1,12 @@
 import React from 'react';
-
+import CustomImage from '../Assets/custom.jpg';
 const ParallaxSection = () => {
   return (
     <section className="relative h-[600px] overflow-hidden">
       <div
         className="absolute inset-0 bg-fixed bg-center bg-cover"
         style={{
-          backgroundImage:
-            'url(https://stackblitz.com/storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOW50RkE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7d93f680d9726bec3d76e8c3f54db2f51ac4c0e4/custom.jpg)',
+          backgroundImage: `url(${CustomImage})`,
           transform: 'translateZ(0)',
         }}
       >

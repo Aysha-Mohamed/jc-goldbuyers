@@ -1,4 +1,5 @@
 import React from 'react';
+import MetalsImage from '../Assets/metals.webp';
 
 const InvestmentSection = () => {
   return (
@@ -17,8 +18,7 @@ const InvestmentSection = () => {
           <div
             className="absolute inset-0 bg-fixed bg-center bg-cover"
             style={{
-              backgroundImage:
-                'url(https://stackblitz.com/storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNFh1RkE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--d0771a828bf72dc322be3c46e07086bdd9ea29c7/metals.webp)',
+              backgroundImage: `url(${MetalsImage})`,
               transform: 'translateZ(0)',
             }}
           >

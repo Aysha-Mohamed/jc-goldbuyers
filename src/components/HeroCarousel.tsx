@@ -10,7 +10,6 @@ const HeroSection = () => {
           backgroundImage: `url(${BannerImage})`,
         }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-20" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white px-4 max-w-6xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-barlow font-bold mb-6 text-center leading-tight">
             Turn Your Valuables
@@ -18,12 +17,9 @@ const HeroSection = () => {
             Into Instant Cash
           </h1>
           <p className="text-xl md:text-2xl mb-4 font-barlow font-bold">Jersey City's Most Trusted Buyer</p>
-          {/* <p className="text-lg md:text-xl mb-8 text-[#FFD700] font-barlow tracking-wider text-center">
-            Gold Bullion &nbsp;•&nbsp; Luxury Watches &nbsp;•&nbsp; Fine Jewelry &nbsp;•&nbsp; Lab Grown Diamonds
-          </p> */}
-          <p className=" text-md md:text-xl mb-8 font-bold text-[#FFD700] font-barlow tracking-wider text-center">
-  Gold Bullion &nbsp;•&nbsp; Luxury Watches &nbsp;•&nbsp; Fine Jewelry  <span className="hidden md:inline">&nbsp;•&nbsp;</span>
-  <span className="block md:inline"> Lab Grown Diamonds</span>
+          <p className=" text-md md:text-xl mb-8 text-[#FFD700] font-barlow tracking-wider text-center">
+          Fine Jewelry &nbsp;•&nbsp; Luxury Watches <span className="hidden md:inline"> &nbsp;•&nbsp;</span>  <span className="block md:inline"> Gold & Silver Bullion <span className=" md:inline">&nbsp;•&nbsp;</span>
+ Lab Grown Diamonds</span>
 </p>
           <a
             href="#contact"

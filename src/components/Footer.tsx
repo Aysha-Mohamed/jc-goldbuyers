@@ -8,22 +8,6 @@ const Footer = () => {
     <footer className="bg-white border-t border-gray-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-          {/* Brand Section */}
-          {/* <div className="col-span-1 md:col-span-1">
-            <div className="mb-4">
-              <img
-                src="https://stackblitz.com/storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBME0rSlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--c374bf833319704c62f35510ef33b22103b1b281/Logo_1.jpg"
-                alt="JC Gold Buyers Logo"
-                className="h-32 w-auto"
-              />
-            </div>
-            <p className="text-gray-600 mb-4 font-barlow">
-              Jersey City's most trusted buyer of gold, diamonds, luxury watches, and fine jewelry
-              since 2011.
-            </p>
-          </div> */}
-
-          {/* Quick Links */}
           <div>
             <h3 className="text-lg font-barlow font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">

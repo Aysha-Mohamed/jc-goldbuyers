@@ -85,7 +85,7 @@ const Navbar = () => {
               ))}
             </nav>
 
-            <div className="flex-1 flex justify-center">
+            <div className="flex-1 flex justify-center ml-6 md:ml-0">
               <Logo isScrolled={isScrolled} />
             </div>
 
@@ -103,7 +103,7 @@ const Navbar = () => {
 
             {/* Mobile Menu Button */}
             <button
-              className="md:hidden p-2 rounded-md text-gray-800 hover:text-[#B8860B] focus:outline-none"
+              className="md:hidden p-0 rounded-md text-gray-800 hover:text-[#B8860B] focus:outline-none"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
               {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}

@@ -1,22 +1,24 @@
 import React from 'react';
-
+import EvaluateImage from '../Assets/evaluate.jpg';
+import TransactionsImage from '../Assets/transactions.jpg';
+import ExperienceImage from '../Assets/experience.jpg';
 const AboutSection = () => {
   const features = [
     {
       image:
-        'https://stackblitz.com/storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMlRzRkE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b94c2596e58602e044ec6d964b926c9b72190b95/evaluate.jpg',
+      EvaluateImage,
       title: 'Expert Evaluation',
       description: 'Professional assessment of your precious items by certified specialists',
     },
     {
       image:
-        'https://stackblitz.com/storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMlhzRkE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--289e84230a3d7e6fe501544a55c0bd926f75c671/transactions.jpg',
+      TransactionsImage,
       title: 'Secure Transactions',
       description: 'Safe, confidential, and transparent buying process',
     },
     {
       image:
-        'https://stackblitz.com/storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMlBzRkE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--812427916962651544a3de27a31111b8795dae8a/expereince.jpg',
+      ExperienceImage,
       title: 'Decade of Experience',
       description: 'Serving Jersey City with trust and reliability since 2011',
     },
